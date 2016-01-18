@@ -1,3 +1,7 @@
+/*
+© 2016 Andy Leonard
+*/
+
 Use SSISDB
 go
 
