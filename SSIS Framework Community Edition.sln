@@ -10,21 +10,6 @@ EndProject
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "FrameworkTest2", "FrameworkTest2\FrameworkTest2.dtproj", "{7A851C81-9054-4233-8E4F-BFD478B3435A}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://andyleonard.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Framework\\Framework.dtproj
-		SccProjectName1 = Framework
-		SccLocalPath1 = Framework
-		SccProjectUniqueName2 = FrameworkTest1\\FrameworkTest1.dtproj
-		SccProjectName2 = FrameworkTest1
-		SccLocalPath2 = FrameworkTest1
-		SccProjectUniqueName3 = FrameworkTest2\\FrameworkTest2.dtproj
-		SccProjectName3 = FrameworkTest2
-		SccLocalPath3 = FrameworkTest2
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
 	EndGlobalSection
