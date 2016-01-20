@@ -40,3 +40,18 @@ If Not Exists(Select s.name + '.' + t.name
 Else
  print ' - Custom.Applications table already exists.'
 go
+
+print ''
+print 'UX_custom_Applications_ApplicationName'
+If Not Exists(Select name
+              From sys.key_constraints
+			  Where name = 'UX_custom_Applications_ApplicationName')
+ begin
+  print ' - Adding UX_custom_Applications_ApplicationName unique constraint'
+  Alter Table custom.Applications
+   Add Constraint UX_custom_Applications_ApplicationName Unique(ApplicationName)
+  print ' - UX_custom_Applications_ApplicationName unique constraint added'
+ end
+Else
+ print ' - UX_custom_Applications_ApplicationName unique constraint already exists.'
+go

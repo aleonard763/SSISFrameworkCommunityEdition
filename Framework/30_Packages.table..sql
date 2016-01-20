@@ -42,3 +42,18 @@ If Not Exists(Select s.name + '.' + t.name
 Else
  print ' - Custom.Packages table already exists.'
 go
+
+print ''
+print 'UX_custom_Packages_PackageName_Plus'
+If Not Exists(Select name
+              From sys.key_constraints
+			  Where name = 'UX_custom_Packages_PackageName_Plus')
+ begin
+  print ' - Adding UX_custom_Packages_PackageName_Plus unique constraint'
+  Alter Table custom.Packages
+   Add Constraint UX_custom_Packages_PackageName_Plus Unique(PackageName, ProjectName, FolderName)
+  print ' - UX_custom_Packages_PackageName_Plus unique constraint added'
+ end
+Else
+ print ' - UX_custom_Packages_PackageName_Plus unique constraint already exists.'
+go
