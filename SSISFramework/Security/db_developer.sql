@@ -1,0 +1,68 @@
+﻿CREATE ROLE [db_developer]
+    AUTHORIZATION [dbo];
+GO
+
+GRANT ALTER ANY APPLICATION ROLE TO [db_developer];
+GO
+GRANT ALTER ANY ASSEMBLY TO [db_developer];
+GO
+GRANT ALTER ANY DATABASE DDL TRIGGER TO [db_developer];
+GO
+GRANT ALTER ANY DATASPACE TO [db_developer];
+GO
+GRANT ALTER ANY FULLTEXT CATALOG TO [db_developer];
+GO
+GRANT ALTER ANY MESSAGE TYPE TO [db_developer];
+GO
+GRANT ALTER ANY SCHEMA TO [db_developer];
+GO
+GRANT CREATE AGGREGATE TO [db_developer];
+GO
+GRANT CREATE ASSEMBLY TO [db_developer];
+GO
+GRANT CREATE DATABASE DDL EVENT NOTIFICATION TO [db_developer];
+GO
+GRANT CREATE DEFAULT TO [db_developer];
+GO
+GRANT CREATE FULLTEXT CATALOG TO [db_developer];
+GO
+GRANT CREATE FUNCTION TO [db_developer];
+GO
+GRANT CREATE PROCEDURE TO [db_developer];
+GO
+GRANT CREATE ROLE TO [db_developer];
+GO
+GRANT CREATE RULE TO [db_developer];
+GO
+GRANT CREATE SCHEMA TO [db_developer];
+GO
+GRANT CREATE SERVICE TO [db_developer];
+GO
+GRANT CREATE SYNONYM TO [db_developer];
+GO
+GRANT CREATE TABLE TO [db_developer];
+GO
+GRANT CREATE TYPE TO [db_developer];
+GO
+GRANT CREATE VIEW TO [db_developer];
+GO
+GRANT CREATE XML SCHEMA COLLECTION TO [db_developer];
+GO
+GRANT DELETE TO [db_developer];
+GO
+GRANT EXECUTE TO [db_developer];
+GO
+GRANT INSERT TO [db_developer];
+GO
+GRANT REFERENCES TO [db_developer];
+GO
+GRANT SELECT TO [db_developer];
+GO
+GRANT SHOWPLAN TO [db_developer];
+GO
+GRANT UPDATE TO [db_developer];
+GO
+GRANT VIEW DATABASE STATE TO [db_developer];
+GO
+GRANT VIEW DEFINITION TO [db_developer];
+GO

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetConnectionString>Data Source=(local)\SQL2014;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True</TargetConnectionString>
+	<TargetDatabaseName>SSISFramework</TargetDatabaseName>
+    <DeployScriptFileName>SSISFramework.sql</DeployScriptFileName>
+	<IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <BlockWhenDriftDetected>False</BlockWhenDriftDetected>
+    <RegisterDataTierApplication>False</RegisterDataTierApplication>
+    <ProfileVersionNumber>1</ProfileVersionNumber>
+    <BlockOnPossibleDataLoss>True</BlockOnPossibleDataLoss>
+    <ScriptFileSize>True</ScriptFileSize>
+    <DropObjectsNotInSource>True</DropObjectsNotInSource>
+    <DoNotDropAudits>True</DoNotDropAudits>
+    <DoNotDropBrokerPriorities>True</DoNotDropBrokerPriorities>
+    <DoNotDropCertificates>True</DoNotDropCertificates>
+    <DoNotDropAsymmetricKeys>True</DoNotDropAsymmetricKeys>
+    <DoNotDropApplicationRoles>True</DoNotDropApplicationRoles>
+    <DoNotDropAssemblies>True</DoNotDropAssemblies>
+    <DoNotDropAggregates>True</DoNotDropAggregates>
+    <DoNotDropClrUserDefinedTypes>True</DoNotDropClrUserDefinedTypes>
+    <DoNotDropColumnEncryptionKeys>True</DoNotDropColumnEncryptionKeys>
+    <DoNotDropColumnMasterKeys>True</DoNotDropColumnMasterKeys>
+    <DoNotDropContracts>True</DoNotDropContracts>
+    <DoNotDropCryptographicProviders>True</DoNotDropCryptographicProviders>
+    <DoNotDropDatabaseAuditSpecifications>True</DoNotDropDatabaseAuditSpecifications>
+    <DoNotDropCredentials>True</DoNotDropCredentials>
+    <DoNotDropDatabaseTriggers>False</DoNotDropDatabaseTriggers>
+    <DoNotDropErrorMessages>True</DoNotDropErrorMessages>
+    <DoNotDropEventNotifications>True</DoNotDropEventNotifications>
+    <DoNotDropEventSessions>True</DoNotDropEventSessions>
+    <DoNotDropExtendedProperties>True</DoNotDropExtendedProperties>
+    <DoNotDropExternalDataSources>True</DoNotDropExternalDataSources>
+    <DoNotDropExternalFileFormats>True</DoNotDropExternalFileFormats>
+    <DoNotDropLinkedServerLogins>True</DoNotDropLinkedServerLogins>
+    <DoNotDropLinkedServers>True</DoNotDropLinkedServers>
+    <DoNotDropLogins>True</DoNotDropLogins>
+    <DoNotDropRoutes>True</DoNotDropRoutes>
+    <DoNotDropQueues>True</DoNotDropQueues>
+    <DoNotDropRules>True</DoNotDropRules>
+    <DoNotDropServerAuditSpecifications>True</DoNotDropServerAuditSpecifications>
+    <DoNotDropServerRoleMembership>True</DoNotDropServerRoleMembership>
+    <DoNotDropServerRoles>True</DoNotDropServerRoles>
+    <DoNotDropServerTriggers>True</DoNotDropServerTriggers>
+    <DoNotDropServices>True</DoNotDropServices>
+    <DoNotDropSignatures>True</DoNotDropSignatures>
+    <DoNotDropSymmetricKeys>True</DoNotDropSymmetricKeys>
+    <DoNotDropUsers>True</DoNotDropUsers>
+    <DoNotDropEndpoints>True</DoNotDropEndpoints>
+    <DoNotDropPermissions>True</DoNotDropPermissions>
+    <DoNotDropRemoteServiceBindings>True</DoNotDropRemoteServiceBindings>
+    <DoNotDropRoleMembership>True</DoNotDropRoleMembership>
+    <DoNotDropSecurityPolicies>True</DoNotDropSecurityPolicies>
+  </PropertyGroup>
+</Project>
