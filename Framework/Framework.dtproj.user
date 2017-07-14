@@ -4,9 +4,8 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <ServerName>(local)\Demo</ServerName>
+        <ServerName>vmSql16\FwCommunity</ServerName>
         <PathOnServer>/SSISDB/Framework/Framework</PathOnServer>
-        <Run64BitRuntime>true</Run64BitRuntime>
         <UserIDs />
         <UserPasswords />
         <OfflineMode>false</OfflineMode>

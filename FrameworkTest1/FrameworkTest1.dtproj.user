@@ -4,7 +4,7 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <ServerName>(local)\Demo</ServerName>
+        <ServerName>vmSql16\FwCommunity</ServerName>
         <PathOnServer>/SSISDB/Test/FrameworkTest1</PathOnServer>
         <Run64BitRuntime>true</Run64BitRuntime>
         <UserIDs />

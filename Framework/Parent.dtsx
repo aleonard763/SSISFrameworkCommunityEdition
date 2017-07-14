@@ -12,8 +12,8 @@
   DTS:MaxErrorCount="0"
   DTS:ObjectName="Parent"
   DTS:PackageType="5"
-  DTS:VersionBuild="11"
-  DTS:VersionGUID="{9A399830-121A-4AB5-A505-D95747850088}">
+  DTS:VersionBuild="15"
+  DTS:VersionGUID="{E4F10E57-D31C-4561-AA15-288F51B7A5F6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
