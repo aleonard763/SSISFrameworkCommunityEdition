@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Framework", "Framework\Framework.dtproj", "{4442DC1B-681B-43C5-ABCA-A1B37006CB4C}"
 EndProject
@@ -9,19 +9,47 @@ Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "FrameworkTest1", "Framework
 EndProject
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "FrameworkTest2", "FrameworkTest2\FrameworkTest2.dtproj", "{7A851C81-9054-4233-8E4F-BFD478B3435A}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SSISDB", "SSISDB\SSISDB.sqlproj", "{07098C97-A930-4C11-B5E5-E8755DDD6667}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Development|Default = Development|Default
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4442DC1B-681B-43C5-ABCA-A1B37006CB4C}.Development|Default.ActiveCfg = Development
-		{4442DC1B-681B-43C5-ABCA-A1B37006CB4C}.Development|Default.Build.0 = Development
-		{731A966E-8E2D-4794-AD6E-9CBF769C758E}.Development|Default.ActiveCfg = Development
-		{731A966E-8E2D-4794-AD6E-9CBF769C758E}.Development|Default.Build.0 = Development
-		{7A851C81-9054-4233-8E4F-BFD478B3435A}.Development|Default.ActiveCfg = Development
-		{7A851C81-9054-4233-8E4F-BFD478B3435A}.Development|Default.Build.0 = Development
+		{4442DC1B-681B-43C5-ABCA-A1B37006CB4C}.Debug|Any CPU.ActiveCfg = Development
+		{4442DC1B-681B-43C5-ABCA-A1B37006CB4C}.Debug|Any CPU.Build.0 = Development
+		{4442DC1B-681B-43C5-ABCA-A1B37006CB4C}.Development|Any CPU.ActiveCfg = Development
+		{4442DC1B-681B-43C5-ABCA-A1B37006CB4C}.Development|Any CPU.Build.0 = Development
+		{4442DC1B-681B-43C5-ABCA-A1B37006CB4C}.Release|Any CPU.ActiveCfg = Development
+		{4442DC1B-681B-43C5-ABCA-A1B37006CB4C}.Release|Any CPU.Build.0 = Development
+		{731A966E-8E2D-4794-AD6E-9CBF769C758E}.Debug|Any CPU.ActiveCfg = Development
+		{731A966E-8E2D-4794-AD6E-9CBF769C758E}.Debug|Any CPU.Build.0 = Development
+		{731A966E-8E2D-4794-AD6E-9CBF769C758E}.Development|Any CPU.ActiveCfg = Development
+		{731A966E-8E2D-4794-AD6E-9CBF769C758E}.Development|Any CPU.Build.0 = Development
+		{731A966E-8E2D-4794-AD6E-9CBF769C758E}.Release|Any CPU.ActiveCfg = Development
+		{731A966E-8E2D-4794-AD6E-9CBF769C758E}.Release|Any CPU.Build.0 = Development
+		{7A851C81-9054-4233-8E4F-BFD478B3435A}.Debug|Any CPU.ActiveCfg = Development
+		{7A851C81-9054-4233-8E4F-BFD478B3435A}.Debug|Any CPU.Build.0 = Development
+		{7A851C81-9054-4233-8E4F-BFD478B3435A}.Development|Any CPU.ActiveCfg = Development
+		{7A851C81-9054-4233-8E4F-BFD478B3435A}.Development|Any CPU.Build.0 = Development
+		{7A851C81-9054-4233-8E4F-BFD478B3435A}.Release|Any CPU.ActiveCfg = Development
+		{7A851C81-9054-4233-8E4F-BFD478B3435A}.Release|Any CPU.Build.0 = Development
+		{07098C97-A930-4C11-B5E5-E8755DDD6667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07098C97-A930-4C11-B5E5-E8755DDD6667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07098C97-A930-4C11-B5E5-E8755DDD6667}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{07098C97-A930-4C11-B5E5-E8755DDD6667}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{07098C97-A930-4C11-B5E5-E8755DDD6667}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{07098C97-A930-4C11-B5E5-E8755DDD6667}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{07098C97-A930-4C11-B5E5-E8755DDD6667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07098C97-A930-4C11-B5E5-E8755DDD6667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07098C97-A930-4C11-B5E5-E8755DDD6667}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {911DEE91-6F03-4E19-BB2F-921B10BDE44D}
 	EndGlobalSection
 EndGlobal

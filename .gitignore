@@ -1,1 +1,6 @@
 *.suo
+*.dtproj.user
+*.ncrunchsolution.user
+*.sqlproj.user
+SSISDB/obj
+SSISDB/bin

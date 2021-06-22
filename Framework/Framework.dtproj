@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <DeploymentModel>Project</DeploymentModel>
-  <ProductVersion>14.0.600.250</ProductVersion>
+  <ProductVersion>15.0.2000.167</ProductVersion>
   <SchemaVersion>9.0.1.0</SchemaVersion>
   <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkZGwzMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAiIHhtbG5zOmRkbDMwMF8zMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAvMzAwIiB4bWxuczpkZGw0MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAiIHhtbG5zOmRkbDQwMF80MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAvNDAwIiB4bWxuczpkZGw1MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAiIHhtbG5zOmRkbDUwMF81MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAvNTAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
   <Database>
@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">VMSQL14</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7KC7bHiPZkSId6RvORQwdwAAAAACAAAAAAAQZgAAAAEAACAAAACzftZIGr2kcVkBw6q9c3tXhGuCIuVXkwGM1mSZGT3w7AAAAAAOgAAAAAIAACAAAAD8UtoZOnYxk5upDZsVyaoDb0C9JjetB2/3JeBqknWcJJAAAAAgqblqZ2v2HTtlUg0QKdHBDNztc8mMPoIJ6SxVy6RLiiPd7mKePzSiuW7pmiNQpDQfM9UGTgW1JifZ1TrmdqvQyUnTSohzKwPVsauYdQ1dx6RLrd+xsNDT6/PaWepUlxIVYAs0xhiCNPFznszmc1470QRroU6rDEL9SMN5hbTbtROMEz30UM5ASZngz6N58ARAAAAAE1KshBbPSYNB9v4LLbvA6HXWdCuM3SRsyVMUilQ5aCgDYzjYknDOPSSRsIDt9Nfm7Lfkc0vrEi1tzSbdOyPkvA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMj+aw8Vg30KW++KWkVcJcgAAAAACAAAAAAADZgAAwAAAABAAAACBxfvfpOrsUFcREyP04jioAAAAAASAAACgAAAAEAAAAIqm3UGhM+2VJMDPfl2tRKqIAAAAUUUAX1wKw2R2jNKd8Ao2z8jLZANgNpJaBFspV9bob6MFWMRGN0iJ1XsBwXs7LFs7tiZngpru4nwG+06JWmtTrUDxqog8rSeSwHPwtL94K+SGPDxQ7xJFb1F+4dUxxj7UxzJMoBriJmJYIj7MSMW60/7c9l5Z5DNNsuX1inlPxuTvqKrxw9+WAhQAAAB/bwkk/LrEnl3ghBlTJVFRIpF2zw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -66,6 +66,21 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.SSISDB.ConnectByProxy">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
                 <SSIS:Parameter SSIS:Name="CM.SSISDB.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
@@ -79,6 +94,21 @@
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Value">Data Source=(local)\Demo;Initial Catalog=SSISDB;Integrated Security=True;Application Name=SSIS-Parent-{631BE9AE-6F80-4404-890B-23416536B641}vmSQL14.SSISDB;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.SSISDB.ConnectUsingManagedIdentity">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
                 <SSIS:Parameter SSIS:Name="CM.SSISDB.InitialCatalog">
@@ -162,56 +192,7 @@
     </Manifest>
   </DeploymentModelSpecificContent>
   <ControlFlowParts />
-  <Miscellaneous>
-    <ProjectItem>
-      <Name>10_Custom.schema.sql</Name>
-      <FullPath>10_Custom.schema.sql</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>20_execute_catalog_package.proc.sql</Name>
-      <FullPath>20_execute_catalog_package.proc.sql</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>21_custom.execute_catalog_parent_package.proc.sql</Name>
-      <FullPath>21_custom.execute_catalog_parent_package.proc.sql</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>03_Framework_Parent.overrides.sql</Name>
-      <FullPath>03_Framework_Parent.overrides.sql</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>30_Packages.table..sql</Name>
-      <FullPath>30_Packages.table..sql</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>35_Insert_Packages.sql</Name>
-      <FullPath>35_Insert_Packages.sql</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>40_Applications.table.sql</Name>
-      <FullPath>40_Applications.table.sql</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>45_Insert_Application.sql</Name>
-      <FullPath>45_Insert_Application.sql</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>50_ApplicationPackages.table.sql</Name>
-      <FullPath>50_ApplicationPackages.table.sql</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>55_Insert_ApplicationPackages.sql</Name>
-      <FullPath>55_Insert_ApplicationPackages.sql</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>60_ApplicationPackages.FailApplicationOnPackageFailure.col.sql</Name>
-      <FullPath>60_ApplicationPackages.FailApplicationOnPackageFailure.col.sql</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>99_Update_FailApplicationOnPackageFailure.sql</Name>
-      <FullPath>99_Update_FailApplicationOnPackageFailure.sql</FullPath>
-    </ProjectItem>
-  </Miscellaneous>
+  <Miscellaneous />
   <Configurations>
     <Configuration>
       <Name>Development</Name>
@@ -222,6 +203,12 @@
         <ConnectionSecurityMappings />
         <DatabaseStorageLocations />
         <TargetServerVersion>SQLServer2014</TargetServerVersion>
+        <AzureMode>false</AzureMode>
+        <LinkedAzureTenantId />
+        <LinkedAzureAccountId />
+        <LinkedAzureSSISIR />
+        <LinkedAzureStorage />
+        <RemoteExecutionFolder />
         <ParameterConfigurationValues>
           <ConfigurationSetting>
             <Id>LastModifiedTime</Id>
