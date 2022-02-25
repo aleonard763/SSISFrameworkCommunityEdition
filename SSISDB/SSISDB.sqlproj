@@ -71,5 +71,6 @@
     <Build Include="Scripts\55_Insert_ApplicationPackages.sql" />
     <Build Include="Scripts\60_ApplicationPackages.FailApplicationOnPackageFailure.col.sql" />
     <Build Include="Scripts\99_Update_FailApplicationOnPackageFailure.sql" />
+    <Build Include="Scripts\04_Azure-SSIS_Framework_Parent.overrides.sql" />
   </ItemGroup>
 </Project>
