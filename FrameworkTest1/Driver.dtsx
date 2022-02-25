@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="9/17/2016 12:12:05 PM"
@@ -7,12 +7,12 @@
   DTS:CreatorName="vmSQL14\A. Ray Leonard"
   DTS:DTSID="{F014ED76-F740-457D-8318-8F044378C5B0}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="12.0.2344.23"
+  DTS:LastModifiedProductVersion="15.0.2000.128"
   DTS:LocaleID="1033"
   DTS:ObjectName="Driver"
   DTS:PackageType="5"
   DTS:VersionBuild="3"
-  DTS:VersionGUID="{0789B77B-9194-4454-8EA2-8B6EC5F08FF6}">
+  DTS:VersionGUID="{F9642761-F8AC-4BB7-9729-7B4DE276C70E}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
